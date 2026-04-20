@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync to GitLab
-        uses: kulla/sync-to-gitlab@v1
+        uses: kulla/sync-to-gitlab@main
         with:
           token: ${{ secrets.GITLAB_TOKEN }}
           # The following can be omitted if the GitLab owner is the same as the GitHub owner
