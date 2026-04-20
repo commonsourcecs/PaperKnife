@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync to GitLab
-        uses: commonsourcecs/sync-to-gitlab@main
+        uses: commonsourcecs/sync-to-gitlab@patch-1
         with:
           token: ${{ secrets.GITLAB_TOKEN }}
           # The following can be omitted if the GitLab owner is the same as the GitHub owner
